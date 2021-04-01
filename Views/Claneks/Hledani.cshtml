@@ -1,0 +1,34 @@
+﻿@model Hledani
+@{
+    ViewData["Title"] = "Hledani";
+}
+
+<h1>Hledani</h1>
+
+<div class="col-md-4">
+    <form asp-controller="Claneks" asp-action="Hledani">
+        <div class="form-group">
+            <label class="control-label">Zadejte název clanku</label>
+            <input asp-for="NazevClanku" class="form-control" />
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
+@if (Model.CLanky != null)
+{
+    @foreach (Clanek c in Model.CLanky)
+    {
+        <h6>@c.Nazev</h6>
+        <p>
+            Text Článku:
+            @c.Textik              
+        </p>
+    }   
+    <p>
+        Pocet clanku je:   @Model.PocetClanku
+    </p>
+}
+
+

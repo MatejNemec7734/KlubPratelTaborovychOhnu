@@ -1,0 +1,20 @@
+﻿@model AhojViewModel
+<h1> Násobení 5 </h1>
+<p> @Model.Jmeno </p>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-controller="Home" asp-action="Ahoj">
+            <div class="form-group">
+                <label class="control-label">Zde zadejte váš vstup </label>
+                <input asp-for="Vstup" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-primary">
+                Vynásob 5
+            </button>
+        </form>
+    </div>
+    <p>
+        @Model.Vstup
+    </p>
+</div>

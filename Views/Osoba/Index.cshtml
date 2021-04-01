@@ -1,0 +1,43 @@
+﻿@model IEnumerable<KlubPrátelTaborovychOhnu.Models.Osoba>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index Osob</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Seznam Osob.
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Jmeno);
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                </td>                
+            </tr>
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Vek)
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
