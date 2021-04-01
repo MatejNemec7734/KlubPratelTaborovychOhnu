@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\drace\\source\\repos\\KlubPrátelTaborovychOhnu\\KlubPrátelTaborovychOhnu.csproj": {}
+    "D:\\drace\\novaplocha\\jedno\\KlubPratelTaborovychOhnu\\KlubPrátelTaborovychOhnu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\drace\\source\\repos\\KlubPrátelTaborovychOhnu\\KlubPrátelTaborovychOhnu.csproj": {
+    "D:\\drace\\novaplocha\\jedno\\KlubPratelTaborovychOhnu\\KlubPrátelTaborovychOhnu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drace\\source\\repos\\KlubPrátelTaborovychOhnu\\KlubPrátelTaborovychOhnu.csproj",
+        "projectUniqueName": "D:\\drace\\novaplocha\\jedno\\KlubPratelTaborovychOhnu\\KlubPrátelTaborovychOhnu.csproj",
         "projectName": "KlubPrátelTaborovychOhnu",
-        "projectPath": "C:\\Users\\drace\\source\\repos\\KlubPrátelTaborovychOhnu\\KlubPrátelTaborovychOhnu.csproj",
+        "projectPath": "D:\\drace\\novaplocha\\jedno\\KlubPratelTaborovychOhnu\\KlubPrátelTaborovychOhnu.csproj",
         "packagesPath": "C:\\Users\\drace\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drace\\source\\repos\\KlubPrátelTaborovychOhnu\\obj\\",
+        "outputPath": "D:\\drace\\novaplocha\\jedno\\KlubPratelTaborovychOhnu\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

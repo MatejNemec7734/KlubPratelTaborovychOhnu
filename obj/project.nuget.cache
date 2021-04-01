@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tjy1WP7RhuHQFIxsXcV9AI6l0JaJfZ9B4cbJmkqHJpUuMA/YrBQuYqP9b+KoydjAdvSIq6dJQikyFF1sqG/ezQ==",
+  "dgSpecHash": "ZDEr58XJTq45iqFdxqCfb1dtK99hkhvjElT1dhSO1sePCx/6S6ubg1+f8YkKoxDCx6rvClbGeXpSkT6/mdvaKw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\drace\\source\\repos\\KlubPrátelTaborovychOhnu\\KlubPrátelTaborovychOhnu.csproj",
+  "projectFilePath": "D:\\drace\\novaplocha\\jedno\\KlubPratelTaborovychOhnu\\KlubPrátelTaborovychOhnu.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\drace\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\drace\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.4\\microsoft.aspnetcore.cryptography.internal.5.0.4.nupkg.sha512",
